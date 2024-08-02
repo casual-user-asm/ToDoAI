@@ -1,0 +1,12 @@
+.chatContainer {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    flex: 1; /* Allows the chat container to grow */
+    overflow: hidden; /* Prevents overflow */
+    border-radius: 0 10px 10px 0;
+    background-color: navajowhite;
+}
+
+.chatContainer2 {
+    background-color: magenta;
+}

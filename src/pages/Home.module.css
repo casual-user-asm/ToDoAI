@@ -1,54 +1,3 @@
-.content {
-    background-color: #5995ed;
-    height: 100%;
-    border-radius: 10px 0 0 10px;
-    width: 15%;
-}
-
-.deleteBut {
-    margin: 10px;
-    font-size: 25px;
-}
-
-.deleteBut:hover {
-    color: red;
-    cursor: pointer;
-}
-
-.completeBut {
-    margin: 10px;
-    margin-left: 350px;
-    font-size: 25px;
-}
-
-.completeBut:hover {
-    cursor: pointer;
-    color: green;
-}
-
-.listWrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
-    margin-top: 35px;
-}
-
-.button {
-    background-color: #7cafc4;
-}
-
-.button:hover {
-    background-color: #7cafc4;
-}
-
-.content2 {
-    background-color: #ffad05;
-    height: 100%;
-    border-radius: 0 10px 10px 0;
-}
-
 .wrapper {
     display: flex;
     justify-content: center;
@@ -59,19 +8,7 @@
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+    width: 95%;
     height: 80%;
     border-radius: 10px;
-}
-
-.text {
-    color: #ffad05;
-    font-size: 25px;
-}
-
-.textTask {
-    color: #fcff4b;
-    font-size: 20px;
 }

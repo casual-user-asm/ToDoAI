@@ -1,0 +1,71 @@
+.text {
+    color: #ffad05;
+    font-size: 25px;
+}
+
+.textTask {
+    color: black;
+    font-size: 20px;
+    flex-grow: 1;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.alert {
+    margin: auto;
+    width: 50%;
+}
+
+.content {
+    background-color: #5995ed;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteBut {
+    margin: 10px;
+    font-size: 25px;
+    color: red;
+}
+
+.deleteBut:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.completeBut {
+    margin: 10px;
+    font-size: 25px;
+    color: green;
+}
+
+.completeBut:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.listWrapper {
+    overflow-y: auto;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+.listItem {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: for visual separation */
+    padding: 10px 0; /* Optional: for spacing */
+}
+
+.button {
+    background-color: #7cafc4;
+}
+
+.button:hover {
+    background-color: #7cafc4;
+}
