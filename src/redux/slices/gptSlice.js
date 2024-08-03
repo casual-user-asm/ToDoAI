@@ -6,10 +6,9 @@ const initialState = {
     status: '',
     error: null,
 }
-const OPENAI_API_KEY =
-    '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'
+
 const openai = new OpenAI({
-    apiKey: OPENAI_API_KEY,
+    apiKey: process.env.REACT_APP_OPENAI_KEY,
     dangerouslyAllowBrowser: true,
 })
 
