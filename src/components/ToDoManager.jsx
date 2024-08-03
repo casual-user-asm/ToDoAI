@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { add_task, complete_task, delete_task } from '../redux/slices/taskSlice'
 import { Col, Divider, Button, Input, List, Space, Alert } from 'antd'
 import styles from './ToDoManager.module.css'
+import { fetchAI } from '../redux/slices/gptSlice'
 
 export default function ToDoManager() {
     const [task, setTask] = useState('')
@@ -16,6 +17,7 @@ export default function ToDoManager() {
 
     const confirmTask = () => {
         dispatch(add_task(task))
+        dispatch(fetchAI(task))
         setTask('')
     }
 
@@ -77,9 +79,8 @@ export default function ToDoManager() {
                         renderItem={(item, index) => (
                             <List.Item className={`${styles.listItem}`}>
                                 <p className={`${styles.textTask}`} key={index}>
-                                    {item}
+                                    {index + 1}. {item}
                                 </p>
-
                                 <CheckSquareOutlined
                                     className={`${styles.completeBut}`}
                                     title="Complete task"

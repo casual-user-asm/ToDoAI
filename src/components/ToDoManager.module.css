@@ -1,11 +1,11 @@
 .text {
-    color: #ffad05;
+    color: #041f1e;
     font-size: 25px;
 }
 
 .textTask {
-    color: black;
-    font-size: 20px;
+    color: #041f1e;
+    font-size: 23px;
     flex-grow: 1;
     margin-left: 15px;
     overflow: hidden;
@@ -17,7 +17,7 @@
 }
 
 .content {
-    background-color: #5995ed;
+    background-color: #f7dba7;
     height: 100%;
     border-radius: 10px 0 0 10px;
     width: 50%;
@@ -29,6 +29,8 @@
     margin: 10px;
     font-size: 25px;
     color: red;
+    margin-left: 10px;
+    margin-right: 15px;
 }
 
 .deleteBut:hover {
@@ -58,14 +60,11 @@
     height: 80px;
     align-items: center;
     margin-bottom: 10px;
-    border-bottom: 1px solid #ddd; /* Optional: for visual separation */
-    padding: 10px 0; /* Optional: for spacing */
+    border-bottom: 1px solid #f1ab86;
+    padding: 10px 0;
 }
 
 .button {
-    background-color: #7cafc4;
-}
-
-.button:hover {
-    background-color: #7cafc4;
+    background-color: #1e2d2f;
+    color: #f7dba7;
 }
