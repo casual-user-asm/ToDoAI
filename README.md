@@ -1,5 +1,5 @@
 
-<img src="https://github.com/user-attachments/assets/bc67299f-17b3-4ea1-8109-4156c659912f" width="600" height="400" />
+<img src="https://github.com/user-attachments/assets/bc67299f-17b3-4ea1-8109-4156c659912f" width="1280" height="640" />
 
 
 # ToDoAI
