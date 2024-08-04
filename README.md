@@ -1,5 +1,6 @@
 
-![Logo](https://github.com/user-attachments/assets/0cd0e744-bf49-4f54-93e6-170887bdcd5d)
+![Logo](https://github.com/user-attachments/assets/bc67299f-17b3-4ea1-8109-4156c659912f)
+
 
 # ToDoAI
 
