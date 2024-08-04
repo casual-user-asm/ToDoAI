@@ -1,5 +1,4 @@
-
-![Todoai](https://github.com/user-attachments/assets/6e6f3d4b-cb22-4395-85b2-1cbc36d8104b)
+<img src="https://github.com/user-attachments/assets/6e6f3d4b-cb22-4395-85b2-1cbc36d8104b" width="1280">
 
 
 # ToDoAI
