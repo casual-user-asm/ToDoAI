@@ -1,5 +1,5 @@
 
-<img src="https://github.com/user-attachments/assets/bc67299f-17b3-4ea1-8109-4156c659912f" width="1280" height="640" />
+![Todoai](https://github.com/user-attachments/assets/6e6f3d4b-cb22-4395-85b2-1cbc36d8104b)
 
 
 # ToDoAI
